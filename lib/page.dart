@@ -94,7 +94,7 @@ class _LandingPageState extends State<LandingPage> {
             child: Scaffold(
               appBar: AppBar(
                 centerTitle: true,
-                title: const Text('DesignHood'),
+                title: const Text('DzignHood'),
                 leading: const Icon(Icons.category),
                 actions: <Widget>[
                   IconButton(
@@ -148,32 +148,7 @@ class _LandingPageState extends State<LandingPage> {
                   const Text("we will give all the links of our social media handles here"),
                 ],
               ),
-              bottomNavigationBar: BottomNavigationBar(
-                currentIndex: 1,
-                type: BottomNavigationBarType.fixed,
-                items: const [
-                  BottomNavigationBarItem(
-                    icon: Icon(Icons.home),
-                    label: "",
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(FontAwesomeIcons.folderOpen),
-                    label: "",
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(Icons.favorite_border),
-                    label: "",
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(Icons.person_outline),
-                    label: "",
-                  ),
-                  BottomNavigationBarItem(
-                    icon: Icon(Icons.settings),
-                    label: "",
-                  ),
-                ],
-              ),
+             
             )));
   }
 
