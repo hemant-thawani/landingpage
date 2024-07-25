@@ -94,7 +94,7 @@ class _LandingPageState extends State<LandingPage> {
             child: Scaffold(
               appBar: AppBar(
                 centerTitle: true,
-                title: const Text('Categories'),
+                title: const Text('DesignHood'),
                 leading: const Icon(Icons.category),
                 actions: <Widget>[
                   IconButton(
